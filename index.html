@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<section>
+<div class="scrollmenu">
+  <a class="tablinks" onclick="information (event, 'Home')"id="defaultOpen">Home</a>
+  <a class="tablinks" onclick="information (event, 'About')">About</a>
+  <a class="tablinks" onclick="information (event, 'Contact')">Contact</a>
+  
+</div>
+<div id="Home" class="tabcontent">
+  <div class="container horizontal-scrollable">
+      <div class="col-xs-4"><img src="1.jpg" alt="" ></div>
+      <div class="col-xs-4"><img src="8.jpg" alt="" ></div>
+      <div class="col-xs-4"><img src="13.jpg" alt=""></div>
+      <div class="col-xs-4"><img src="14.jpg" alt=""></div>
+      <div class="col-xs-4"><img src="3.jpg" alt=""></div>
+  </div>
+</div>
+<div id="About" class="tabcontent">
+  <h1>About US</h1>
+</div>
+<div id="Contact" class="tabcontent">
+  <h1>Contact</h1>
+</div>
+</section>
+<hr>
+<br>
+<section>
+  <h1> Contact Form</h1>
+
+<form>
+  <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+
+</section>
+</body>
+</html>
